@@ -1,6 +1,0 @@
-framework module JFSDKFramework {
-  umbrella header "JFSDKFramework.h"
-
-  export *
-  module * { export * }
-}

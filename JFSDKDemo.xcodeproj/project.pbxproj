@@ -30,7 +30,7 @@
 		CE1F3EFB1FE770E800C5CD86 /* JFSDKFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = CE1F3EF91FE770E800C5CD86 /* JFSDKFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CE1F3EFE1FE770E800C5CD86 /* JFSDKFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE1F3EF71FE770E800C5CD86 /* JFSDKFramework.framework */; };
 		CE1F3EFF1FE770E800C5CD86 /* JFSDKFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CE1F3EF71FE770E800C5CD86 /* JFSDKFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		CE1F3F071FE7717300C5CD86 /* SDKVCtest01.h in Headers */ = {isa = PBXBuildFile; fileRef = CE1F3F041FE7717300C5CD86 /* SDKVCtest01.h */; };
+		CE1F3F071FE7717300C5CD86 /* SDKVCtest01.h in Headers */ = {isa = PBXBuildFile; fileRef = CE1F3F041FE7717300C5CD86 /* SDKVCtest01.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CE1F3F081FE7717300C5CD86 /* SDKVCtest01.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1F3F051FE7717300C5CD86 /* SDKVCtest01.m */; };
 		CE1F3F121FE787F100C5CD86 /* SDKVCtest02.h in Headers */ = {isa = PBXBuildFile; fileRef = CE1F3F101FE787F100C5CD86 /* SDKVCtest02.h */; };
 		CE1F3F131FE787F100C5CD86 /* SDKVCtest02.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1F3F111FE787F100C5CD86 /* SDKVCtest02.m */; };
