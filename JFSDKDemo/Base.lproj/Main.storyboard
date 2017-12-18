@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="eG8-1r-Bv1"/>
+                        <viewControllerLayoutGuide type="bottom" id="DYJ-Hp-6Hg"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Vc-tq-law">
+                                <rect key="frame" x="30" y="60" width="315" height="30"/>
+                                <color key="backgroundColor" red="0.64316427870000004" green="0.90863773459999997" blue="0.68328970010000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="eTX-YN-pyO"/>
+                                </constraints>
+                                <state key="normal" title="push Xib"/>
+                                <connections>
+                                    <action selector="pushXib:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MSe-39-TN8"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qqd-Qy-aYf">
+                                <rect key="frame" x="30" y="120" width="315" height="30"/>
+                                <color key="backgroundColor" red="0.64316427870000004" green="0.90863773459999997" blue="0.68328970010000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="SoD-dv-V1E"/>
+                                </constraints>
+                                <state key="normal" title="push Storyboard"/>
+                                <connections>
+                                    <action selector="pushStoryboard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="43j-9A-ap6"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="3Vc-tq-law" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="30" id="1mO-Fh-kTf"/>
+                            <constraint firstAttribute="trailing" secondItem="qqd-Qy-aYf" secondAttribute="trailing" constant="30" id="AfE-Fh-cSH"/>
+                            <constraint firstItem="qqd-Qy-aYf" firstAttribute="top" secondItem="3Vc-tq-law" secondAttribute="bottom" constant="30" id="KFX-8t-2sP"/>
+                            <constraint firstAttribute="trailing" secondItem="3Vc-tq-law" secondAttribute="trailing" constant="30" id="SQd-CN-gOy"/>
+                            <constraint firstItem="qqd-Qy-aYf" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="30" id="n5x-Xl-2yc"/>
+                            <constraint firstItem="3Vc-tq-law" firstAttribute="top" secondItem="eG8-1r-Bv1" secondAttribute="bottom" constant="40" id="wud-Fi-Oua"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
