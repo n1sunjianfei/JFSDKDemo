@@ -1,0 +1,43 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/sunjianfei/iOS\u5F00\u53D1/MYTestDemo/JFSDKDemo/build/Release-iphoneos/JFSDKFramework.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "JFSDKFramework-Swift.h",
+          'external-contents': "/Users/sunjianfei/iOS\u5F00\u53D1/MYTestDemo/JFSDKDemo/build/Release-iphoneos/JFSDKFramework.framework/Headers/JFSDKFramework-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "JFSDKFramework.h",
+          'external-contents': "/Users/sunjianfei/iOS\u5F00\u53D1/MYTestDemo/JFSDKDemo/JFSDKFramework/JFSDKFramework.h"
+        },
+        {
+          'type': 'file',
+          'name': "SDKVCtest01.h",
+          'external-contents': "/Users/sunjianfei/iOS\u5F00\u53D1/MYTestDemo/JFSDKDemo/JFSDKFramework/SDKVCtest01.h"
+        },
+        {
+          'type': 'file',
+          'name': "SDKVCtest02.h",
+          'external-contents': "/Users/sunjianfei/iOS\u5F00\u53D1/MYTestDemo/JFSDKDemo/JFSDKFramework/SDKVCtest02.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/sunjianfei/iOS\u5F00\u53D1/MYTestDemo/JFSDKDemo/build/Release-iphoneos/JFSDKFramework.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/sunjianfei/iOS\u5F00\u53D1/MYTestDemo/JFSDKDemo/build/JFSDKDemo.build/Release-iphoneos/JFSDKFramework.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}

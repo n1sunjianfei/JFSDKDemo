@@ -17,6 +17,5 @@ FOUNDATION_EXPORT const unsigned char JFSDKFrameworkVersionString[];
 // In this header, you should import all the public headers of your framework using statements like #import <JFSDKFramework/PublicHeader.h>
 
 #import <JFSDKFramework/SDKVCtest01.h>
-#import <JFSDKFramework/SDKVCtest02.h>
 
 

@@ -26,6 +26,9 @@
     self.imageView1.image = [UIImage imageNamed:@"iconjf.png" inBundle:[NSBundle bundleWithPath:[[NSBundle mainBundle] pathForResource:@"JFSDKSources" ofType:@"bundle"]] compatibleWithTraitCollection:nil];
     
 }
+- (IBAction)dismiss:(UIButton *)sender {
+    [self dismissViewControllerAnimated:YES completion:nil];
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
